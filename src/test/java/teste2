@@ -1,0 +1,213 @@
+{
+	"transportadoras": [
+		{
+			"prazoCliente": "",
+			"previsaoEntrega": "13/04/2023",
+			"pesoCubado": null,
+			"peso": null,
+			"valor": 0.0,
+			"nome": "CONSERVAL VEICULOS LTDA - 24353",
+			"movimentos": [],
+			"cnpj": "03144577000165",
+			"valorCliente": null,
+			"status": "CALCULADO",
+			"tabela": "9629 - CONSERVAL FK GUINCHO",
+			"diasEntrega": 2,
+			"possuiInstrucaoEntrega": "N",
+			"modal": "ROD",
+			"tipoConhecimento": 1
+		},
+		{
+			"prazoCliente": "",
+			"previsaoEntrega": "12/04/2023",
+			"pesoCubado": null,
+			"peso": null,
+			"valor": 0.0,
+			"nome": "RTE Rodonaves",
+			"movimentos": [],
+			"cnpj": "44914992003820",
+			"valorCliente": null,
+			"status": "CALCULADO",
+			"tabela": "10215 - FK RTE CURITIBA E REGIÃO ACIMA DE 30 KG",
+			"diasEntrega": 1,
+			"possuiInstrucaoEntrega": "N",
+			"modal": "ROD",
+			"tipoConhecimento": 1
+		},
+		{
+			"prazoCliente": "",
+			"previsaoEntrega": "11/04/2023",
+			"pesoCubado": null,
+			"peso": null,
+			"valor": 22.84,
+			"nome": "TRANSVELLI TRANSPORTES RODOVIARIO DE CARGAS L",
+			"movimentos": [
+				{
+					"codigo": "gris",
+					"observacao": "TRANSVELLI - FK / SUPER PRO 2022 [Percentual: 0,15%]",
+					"valor": 0.04,
+					"descricao": "GRIS"
+				},
+				{
+					"codigo": "advalorem",
+					"observacao": "TRANSVELLI - FK / SUPER PRO 2022 [Percentual: 0,20%]",
+					"valor": 0.05,
+					"descricao": "Ad Valorem"
+				},
+				{
+					"codigo": "taxas",
+					"observacao": "TRANSVELLI - FK / SUPER PRO 2022 [Valor Final: 3,5000]",
+					"valor": 3.50,
+					"descricao": "Taxas"
+				},
+				{
+					"codigo": "fretepeso",
+					"observacao": "TRANSVELLI - FK / SUPER PRO 2022, De TRANSVELLI CURITIBA para TRANSVELLI CAPITAL E REGIÃO [Tipo: Kilo/Unidade, Mínimo: 19,2500]",
+					"valor": 19.25,
+					"descricao": "Frete Peso"
+				},
+				{
+					"codigo": "total",
+					"observacao": null,
+					"valor": 22.84,
+					"descricao": "Total"
+				}
+			],
+			"cnpj": "85064152000100",
+			"valorCliente": null,
+			"status": "CALCULADO",
+			"tabela": "10175 - TRANSVELLI - FK / SUPER PRO 2022",
+			"diasEntrega": 1,
+			"possuiInstrucaoEntrega": "N",
+			"modal": "ROD",
+			"tipoConhecimento": 1
+		},
+		{
+			"prazoCliente": "",
+			"previsaoEntrega": "12/04/2023",
+			"pesoCubado": null,
+			"peso": null,
+			"valor": 34.51,
+			"nome": "RTE Rodonaves",
+			"movimentos": [
+				{
+					"codigo": "gris",
+					"observacao": "RTE  2022 06/2022 [Percentual: 0,10% Valor Mínimo: 1,15]",
+					"valor": 1.15,
+					"descricao": "GRIS"
+				},
+				{
+					"codigo": "fretepeso",
+					"observacao": "RTE  2022 06/2022, De RTE Grande Curitiba para RTE PR-PR [Tipo: Kilo/Unidade, Valor por quilo: 0,4900 X 0,7200, Mínimo: 33,3600]",
+					"valor": 0.35,
+					"descricao": "Frete Peso"
+				},
+				{
+					"codigo": "fretepeso",
+					"observacao": "RTE  2022 06/2022, De RTE Grande Curitiba para RTE PR-PR [Tipo: Kilo/Unidade, Valor por quilo: 0,4900 X 0,7200, Mínimo: 33,3600]",
+					"valor": 33.01,
+					"descricao": "Frete Peso"
+				},
+				{
+					"codigo": "total",
+					"observacao": null,
+					"valor": 34.51,
+					"descricao": "Total"
+				}
+			],
+			"cnpj": "05147898000149",
+			"valorCliente": null,
+			"status": "CALCULADO",
+			"tabela": "10221 - RTE  2022 06/2022",
+			"diasEntrega": 1,
+			"possuiInstrucaoEntrega": "N",
+			"modal": "ROD",
+			"tipoConhecimento": 1
+		},
+		{
+			"prazoCliente": "",
+			"previsaoEntrega": "13/04/2023",
+			"pesoCubado": null,
+			"peso": null,
+			"valor": 43.99,
+			"nome": "TRANS APUCARANA TRANSP RODOV LTDA",
+			"movimentos": [
+				{
+					"codigo": "total",
+					"observacao": null,
+					"valor": 43.99,
+					"descricao": "Total"
+				},
+				{
+					"codigo": "fretepeso",
+					"observacao": "APUCARANA - 2023, De Curitiba para APUCARANA - PARANA [Tipo: Tonelada, Mínimo: 43,9100]",
+					"valor": 43.91,
+					"descricao": "Frete Peso"
+				},
+				{
+					"codigo": "advalorem",
+					"observacao": "APUCARANA - 2023 [Percentual: 0,20%]",
+					"valor": 0.05,
+					"descricao": "Ad Valorem"
+				},
+				{
+					"codigo": "gris",
+					"observacao": "APUCARANA - 2023 [Percentual: 0,10%]",
+					"valor": 0.03,
+					"descricao": "GRIS"
+				}
+			],
+			"cnpj": "07770042000312",
+			"valorCliente": null,
+			"status": "CALCULADO",
+			"tabela": "10370 - APUCARANA - 2023",
+			"diasEntrega": 2,
+			"possuiInstrucaoEntrega": "N",
+			"modal": "ROD",
+			"tipoConhecimento": 1
+		},
+		{
+			"prazoCliente": "",
+			"previsaoEntrega": "12/04/2023",
+			"pesoCubado": null,
+			"peso": null,
+			"valor": 219.67,
+			"nome": "TRANSLUC",
+			"movimentos": [
+				{
+					"codigo": "gris",
+					"observacao": "Transluc Tubos 2022 [Percentual: 0,10%]",
+					"valor": 0.03,
+					"descricao": "GRIS"
+				},
+				{
+					"codigo": "fretepeso",
+					"observacao": "Transluc Tubos 2022, De Curitiba para Transluc - Paraná  [Tipo: Kilo/Unidade, Mínimo: 203,5800]",
+					"valor": 203.58,
+					"descricao": "Frete Peso"
+				},
+				{
+					"codigo": "total",
+					"observacao": null,
+					"valor": 219.67,
+					"descricao": "Total"
+				},
+				{
+					"codigo": "taxas",
+					"observacao": "Transluc Tubos 2022 [Valor Final: 16,0600]",
+					"valor": 16.06,
+					"descricao": "Taxas"
+				}
+			],
+			"cnpj": "82481730000205",
+			"valorCliente": null,
+			"status": "CALCULADO",
+			"tabela": "10364 - Transluc Tubos 2022",
+			"diasEntrega": 1,
+			"possuiInstrucaoEntrega": "N",
+			"modal": "ROD",
+			"tipoConhecimento": 1
+		}
+	],
+	"status": "CALCULADO"
+}
