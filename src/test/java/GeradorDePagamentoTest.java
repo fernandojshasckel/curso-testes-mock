@@ -2,7 +2,11 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 
 import java.math.BigDecimal;
+import java.time.Clock;
+import java.time.Instant;
 import java.time.LocalDate;
+import java.time.ZoneId;
+import java.time.ZoneOffset;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -26,13 +30,16 @@ public class GeradorDePagamentoTest {
     @Mock
     private PagamentoDao pagamentoDao;
 
+    @Mock
+    private Clock clock;
+
     @Captor
     private ArgumentCaptor<Pagamento> captor;
 
     @BeforeEach
     public void beforeEach() {
         MockitoAnnotations.initMocks(this);
-        this.geradorDePagamento = new GeradorDePagamento(pagamentoDao);
+        this.geradorDePagamento = new GeradorDePagamento(pagamentoDao, clock);
     }
 
     @Test
@@ -40,6 +47,11 @@ public class GeradorDePagamentoTest {
 
         Leilao leilao = leilao();
         Lance lanceVencedor = leilao.getLanceVencedor();
+        LocalDate data = LocalDate.of(2023, 04, 12);
+        Instant instant = data.atStartOfDay(ZoneId.systemDefault()).toInstant();
+
+        Mockito.when(clock.instant()).thenReturn(instant);
+        Mockito.when(clock.getZone()).thenReturn(ZoneId.systemDefault());
 
         geradorDePagamento.gerarPagamento(lanceVencedor);
 
